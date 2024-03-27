@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="308.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newprojet.Splashscreen">
+   <children>
+      <ImageView fx:id="platforme" fitHeight="448.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image-flyer-stationnement-1024x546.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

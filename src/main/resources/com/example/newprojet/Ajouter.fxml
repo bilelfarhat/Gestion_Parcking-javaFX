@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="349.0" prefWidth="693.0" style="-fx-background-color: #f5f5dc;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newprojet.Ajouter">
+   <children>
+      <Button fx:id="Gestion_parking" layoutX="501.0" layoutY="76.0" mnemonicParsing="false" onAction="#Gestion_parking" prefHeight="44.0" prefWidth="182.0" style="-fx-background-color: #035faa;" text="Gestion de parking" textFill="#fcfafa" />
+      <Button fx:id="Gestion_places" layoutX="501.0" layoutY="153.0" mnemonicParsing="false" onAction="#Gestion_places" prefHeight="44.0" prefWidth="182.0" style="-fx-background-color: #035faa;" text="Gestion des places" textFill="#fcfafa" />
+      <ImageView fx:id="ImageView" fitHeight="349.0" fitWidth="498.0" layoutX="-3.0">
+         <image>
+            <Image url="@0601581415921-web-tete.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="retour" layoutX="501.0" layoutY="233.0" mnemonicParsing="false" onAction="#retour" prefHeight="44.0" prefWidth="182.0" style="-fx-background-color: #035faa;" text="Retour" textFill="#fcfafa" />
+   </children>
+</AnchorPane>
